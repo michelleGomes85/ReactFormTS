@@ -1,13 +1,13 @@
 import React from "react";
 import { ButtonContainer } from "./styles";
+import { ButtonProps } from "./types";
 
-type ButtonProps = {
-  title: string;
-  onClick?: () => void;
-};
-
-const Button: React.FC<ButtonProps> = ({ title, onClick }) => {
-  return <ButtonContainer onClick={onClick}>{title}</ButtonContainer>;
+const Button: React.FC<ButtonProps> = ({ title, onClick, type = "button", disabled }) => {
+  return (
+    <ButtonContainer onClick={onClick} type={type} disabled={disabled}>
+      {title}
+    </ButtonContainer>
+  );
 };
 
 export { Button };

@@ -1,15 +1,9 @@
 import React from 'react';
 import { Input, InputWrapper, InputContainer, IconWrapper } from './styles';
 
-type Props = {
-  type?: string;
-  placeholder?: string;
-  value?: string;
-  onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void;
-  icon: React.ReactNode;
-};
+import { InputProps } from './types';
 
-const InputField: React.FC<Props> = ({ type = 'text', icon, ...props }) => {
+const InputField: React.FC<InputProps> = ({ type = 'text', icon, ...props }) => {
   return (
     <InputWrapper>
       <InputContainer>

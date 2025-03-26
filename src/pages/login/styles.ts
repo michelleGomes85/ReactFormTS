@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const FormWrapper = styled.div`
-  max-width: 400px;
+  max-width: 500px;
   margin: 40px auto;
   padding: 70px;
   background: white;
@@ -26,3 +26,7 @@ export const Title = styled.h2`
   font-size: 2rem;
   font-weight: bold;
 `;
+
+export const ErrorText = styled.span`
+  color: red;
+`
