@@ -117,4 +117,9 @@ Acesse o projeto no navegador pelo link gerado no terminal (geralmente `http://l
 
 Este projeto serve como base para estudo de **React com TypeScript**, focando no uso do **React Hook Form** para manipulação de formulários e **Yup** para validação. O uso de componentes reutilizáveis e estilização com Styled Components também contribui para a organização do projeto.
 
+## 👩‍💻 Autora
+Desenvolvido por **Michelle Gomes**
+
+🔗 [GitHub - michelleGomes85](https://github.com/michelleGomes85)
+
 Qualquer melhoria ou sugestão será bem-vinda! 🚀
